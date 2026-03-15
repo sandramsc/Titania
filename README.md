@@ -66,7 +66,7 @@ If you’d like to contribute to Titania — whether it’s adding new greetings
     cd titania
  ```
 
-3. Create and activate a virtual environment:
+2. Create and activate a virtual environment:
  ```bash
     python3 -m venv venv
     source venv/bin/activate  # Linux/Mac
@@ -74,20 +74,19 @@ If you’d like to contribute to Titania — whether it’s adding new greetings
  ```
 
  3. Install required libraries:
-    ```bash
-        pip install -r requirements.txt
-    ```
+  ```bash
+    pip install -r requirements.txt
+  ```
 
-4. Create a .env file in the project root:
-
+ 4. Create a .env file in the project root:
   ```bash
     DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
     CHANNEL_ID=YOUR_TARGET_CHANNEL_ID
-    ```
-5. Run the bot:
+  ```
+ 5. Run the bot:
   ```bash
     python bot.py
-    ```
+  ```
 
 ## Usage
 - Invite Titania to your server via the Discord Developer Portal.
