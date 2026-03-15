@@ -7,11 +7,10 @@ import discord
 
 
 load_dotenv()
-#print(os.getenv("DISCORD_TOKEDISCORD_TOKENN"))
+#print(os.getenv("DISCORD_TOKEDISCORD_TOKEN"))
 TOKEN = os.getenv("DISCORD_TOKEN")
 print(TOKEN)
-
-CHANNEL_ID = 1099813364647088178
+CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 intents = discord.Intents.default()
 intents.message_content = False
 bot = commands.Bot(command_prefix="!",intents=intents)
