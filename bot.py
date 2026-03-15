@@ -47,10 +47,10 @@ async def on_ready():
     scheduler = AsyncIOScheduler()
 
     #Schedule weekly on Sundays at 12AM
-    scheduler.add_job(weekly_greeting, "cron", day_of_week="sun", hour=00, minute=0) 
+    scheduler.add_job(weekly_greeting, "cron", day_of_week="mon", hour=0, minute=0) 
 
     #Temporary test: run now for testing
-    asyncio.create_task(weekly_greeting())
+    #asyncio.create_task(weekly_greeting())
 
     #starting the scheduler
     scheduler.start()
