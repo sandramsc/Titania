@@ -106,4 +106,4 @@ If you’d like to contribute to Titania — whether it’s adding new greetings
 
 ## License
 
-[![GitLicense](https://img.shields.io/badge/License-MIT-lime.svg)](https://github.com/sandramsc/Titania/blob/master/LICENSE.md)
+[![GitLicense](https://img.shields.io/badge/License-GNU-lime.svg)](https://github.com/sandramsc/Titania/blob/main/LICENSE.md)
