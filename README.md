@@ -13,7 +13,7 @@ Built with **Discord.py** and **APScheduler**, it supports scheduled greetings, 
 
 Contributions are welcome!  
 
-If you’d like to contribute to Titania — whether it’s adding new greetings, fixing bugs, or improving documentation — please check out the [Contributors page](https://github.com/yourusername/titania/graphs/contributors) for a list of existing contributors and ways to get involved.
+If you’d like to contribute to Titania — whether it’s adding new greetings, fixing bugs, or improving documentation — please check out the [Contributors page](https://github.com/BlackPythonDevs/.github/blob/main/CONTRIBUTING.md) for a list of existing contributors and ways to get involved.
 
 ## Table of Contents
 
